@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.OrderDetail">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="#F5F5F5">
+            <Image Source="Group54.png" Margin="6,-80,7,14" WidthRequest="361" HeightRequest="621"></Image>
+            <ImageButton x:Name="BtnOk" Source="Group55.png" Margin="90,-50,46,30" BackgroundColor="Transparent"  WidthRequest="253" HeightRequest="43"
+                          Clicked="BtnOk_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

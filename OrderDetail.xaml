@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Amiefoodiee.OrderDetail">
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="#F5F5F5">
+            <Image Source="myorder.png" Margin="6,-80,7,14" WidthRequest="361" HeightRequest="621"></Image>
+            <Image Source="Group38.png" Margin="6,-140,10,-210" WidthRequest="370" HeightRequest="270"></Image>
+            <Image Source="Group51.png" Margin="6,-140,10,-210" WidthRequest="370" HeightRequest="270"></Image>
+            <Button
+              Text="Choose payment method" 
+              TextColor="#F24E1E"
+              BackgroundColor="Transparent"
+              Margin="-130,155,28,198"
+              WidthRequest="293" FontSize="Small"
+              FontAttributes="Bold"
+              TextTransform="None"    
+            Clicked="Btnpayment_Clicked"></Button>
+            <ImageButton x:Name="Btnordernow" Source="ordernow.png" Margin="90,-50,46,30" BackgroundColor="Transparent"  WidthRequest="253" HeightRequest="43"
+                          Clicked="Btnordernow_Clicked"></ImageButton>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
